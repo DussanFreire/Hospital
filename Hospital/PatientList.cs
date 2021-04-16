@@ -7,16 +7,30 @@ namespace Hospital
     
     public class PatientList
     {
-        private static List<IPatient> _instance = new List<IPatient>();
+        private static PatientList _instance = new PatientList();
+        private static List<IPatient> _patients = new List<IPatient>();
+
         private PatientList() { }
 
-        public static List<IPatient> Instance
+        public static PatientList Instance
         {
             get
             {
                 return _instance;
             }
         }
+        public void AddNewPatient(IPatient patient) {
+            _patients.Add(patient);
+        }
 
+        public void DisplayPatients()
+        {
+            Console.WriteLine("-------------------- PATIENT LIST --------------------");
+            foreach(IPatient p in _patients)
+            {
+                p.DisplayPatientInformation();
+            }
+            Console.WriteLine("------------------------------------------------------");
+        }
     }
 }

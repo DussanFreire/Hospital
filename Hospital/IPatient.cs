@@ -6,7 +6,11 @@ namespace Hospital
 {
     public interface IPatient
     {
+        public string Type { get; set; }
         public long Id { get; set; }
         public string Name { get; set; }
+
+        public string PlaceOfRegistration { get; set; }
+        public void DisplayPatientInformation();
     }
 }

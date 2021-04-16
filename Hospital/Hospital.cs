@@ -4,10 +4,20 @@ using System.Text;
 
 namespace Hospital
 {
-    class Hospital
+    class Hospital : IMedicalCenter
     {
-        public List<IAtention> Atentions { get; set; }
-        public PatientList Patients { get; set; }
-        public void AddNewInsuredPatient();
+        public string MedicalCenterName { get ; set ; }
+        public string City { get ; set ; }
+
+        public void RegisterPatientOnTheSystem(IPatient patient)
+        {
+            patient.PlaceOfRegistration = MedicalCenterName;
+            PatientList.Instance.AddNewPatient(patient);
+        }
+
+        public void DisplayPatientsOnTheSystem()
+        {
+            PatientList.Instance.DisplayPatients();
+        }
     }
 }
