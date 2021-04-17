@@ -20,16 +20,13 @@ namespace Hospital
 
 
             // Insured and external patient declarations:
-            IPatient sergio = patientFactory.GetPatient("Insured");
-            sergio.Id = 4545545;
-            sergio.Name = "Sergio Ortiz";
-
-
             IPatient camila = patientFactory.GetPatient("External");
             camila.Id = 789952;
             camila.Name = "Camila Camacho";
 
-
+            IPatient sergio = patientFactory.GetPatient("Insured");
+            sergio.Id = 4545545;
+            sergio.Name = "Sergio Ortiz";
             // Registration on the medical centers:
 
             losOlivosCba.RegisterPatientOnTheSystem(sergio);
