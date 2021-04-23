@@ -39,7 +39,7 @@ namespace Hospital
 
             losOlivosCba.DisplayPatientsOnTheSystem();
 
-
+            Console.ReadKey();
         }
     }
 }
