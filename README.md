@@ -9,7 +9,7 @@ This project showcases the implementation of two creational design patterns: Sin
 * Definition: The Singleton pattern ensures that a class has only one instance and pr🏁ovides a global point of access to that instance.
 * Purpose: The primary purpose of the Singleton pattern is to control access to shared resources, such as a configuration object or a connection pool, ensuring that only one instance is used throughout the application.
 
-3. Factory Method Pattern
+2. Factory Method Pattern
 
 * Definition: The Factory Method pattern defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created.
 * Purpose: The Factory Method pattern is used to encapsulate the instantiation of objects, allowing a class to defer instantiation to subclasses. This promotes loose coupling in the code by decoupling the object creation process from the actual implementation.
