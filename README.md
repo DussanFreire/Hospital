@@ -18,8 +18,17 @@ This project showcases the implementation of two creational design patterns: Sin
 * For the creation of patients and medical centers, the Factory Method design pattern was employed. Two distinct factories, MedicalCenterFactory and PatientFactory, were created to interact with the interfaces IMedicalCenter and IPatient
 * To maintain a common registry of registered patients, the Singleton pattern was implemented in the PatientList class, which is utilized in the Hospital class during the registration of new patients.
 
-### Class Diagram <div style="text-align:center"><img src="https://github.com/DussanFreire/Hospital/blob/main/Diagrama%20de%20clases.png" /></div>
-### Sequence Diagram <div style="text-align:center"><img src="https://github.com/DussanFreire/Hospital/blob/main/SequenceDiadram.png" /></div>
-### Singleton Implementation <div style="text-align:center"><img src="https://github.com/DussanFreire/Hospital/blob/main/Singleton.png" /></div>
-### Medical Center Factory <div style="text-align:center"><img src="https://github.com/DussanFreire/Hospital/blob/main/MedicalCenterFactory.png" /></div>
-### Patient Factory <div style="text-align:center"><img src="https://github.com/DussanFreire/Hospital/blob/main/PatientFactory.png" /></div>
+## Class Diagram 
+<div style="text-align:center"><img src="https://github.com/DussanFreire/Hospital/blob/main/Diagrama%20de%20clases.png" /></div>
+
+## Sequence Diagram 
+<div style="text-align:center"><img src="https://github.com/DussanFreire/Hospital/blob/main/SequenceDiadram.png" /></div>
+
+## Singleton Implementation 
+<div style="text-align:center"><img src="https://github.com/DussanFreire/Hospital/blob/main/Singleton.png" /></div>
+
+## Medical Center Factory 
+<div style="text-align:center"><img src="https://github.com/DussanFreire/Hospital/blob/main/MedicalCenterFactory.png" /></div>
+
+## Patient Factory 
+<div style="text-align:center"><img src="https://github.com/DussanFreire/Hospital/blob/main/PatientFactory.png" /></div>
